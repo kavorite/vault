@@ -2,11 +2,11 @@
 id: 9cismp3jsqbqx1pyso6xdc4
 title: Supervised Contrastive Learning
 desc: ''
-updated: 1659019167650
+updated: 1659056602441
 created: 1653188946537
 ---
 
-[Khosla, et al., 2021][paper] ([blog]) verified that supervised instance discrimination is more sample-efficient than direct supervision, even when a set of training labels is provided for input samples.
+[Khosla, et al., 2021][paper] ([blog]) verified that supervised instance discrimination is more sample-efficient than direct supervision and leads to more distinct class embeddings, even when a set of training labels is provided for input samples. The publication attributes this property to the high number of negative instance samples available for providing supervisory signal on _one another_ within a minibatch.
 
 According to the developers of the [official implementation][github], at small minibatch sizes, a [[momentum encoder|notes.cl.moco]] and dictionary are necessary to attain competitive performance. However, it should be possible to offset this technical overhead and hyperparameter sensitivity in a multi-device training regime by performing a rendezvous to synchronize replicated latent representations across minibatches with functionality such as `jax.lax.all_gather`, or by adding more positive examples with strong data augmentation, akin to a supervised form of [[Fast-MoCo|notes.cl.moco#Fast-MoCo]]. 
 
