@@ -84,7 +84,7 @@ preview:
     enableMermaid: true
     enablePrettyRefs: true
     enableKatex: true
-    automaticallyShowPreview: false
+    automaticallyShowPreview: true
 publishing:
     theme: dark
     enableFMTitle: true
@@ -96,7 +96,8 @@ publishing:
     siteUrl: https://kavorite.github.io
     assetsPrefix: /vault
     siteHierarchies:
-        - notes
+        - ref
+        - pub
     writeStubs: false
     siteRootDir: docs
     seo:

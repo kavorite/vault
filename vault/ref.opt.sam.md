@@ -2,7 +2,7 @@
 id: 3cublmnyywkz5grltuf1253
 title: Sharpness Aware Minimization
 desc: ''
-updated: 1658983692345
+updated: 1659115650928
 created: 1653183250379
 ---
 **S**harpness **A**ware **M**inimization, or SAM, is a regularization technique introduced by [Foret, et al., 2020][abstract] used to train models which have the same generalization ability under datasets that are up to an order of magnitude smaller. The algorithm is so simple I have [implemented it myself,][implementation] and I can describe it here:

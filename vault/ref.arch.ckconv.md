@@ -17,7 +17,7 @@ Romero, et al. observed based on the states of converged FlexConvs that they ten
 
 ![Progressively Larger Kernel Sizes](/assets/images/progressive-kernel-sizes.png)
 
-This cost could of course be offset with downsampling, but [CCNN] offers evidence that depthwise-separable versions of [FlexConv] kernels, or FlexSepConv, can be combined with global kernel sizes or depthwise-separable convolutions in order to offset the computational cost of large kernels, making it quadratic instead. The size of the receptive field produced by kernel generator networks like MAGNets could additionally be conditioned on its inputs with intermediate componentry akin to [[notes.opt.film]], or explicitly regularized with an additional loss term, leading me to ask what the result would be if these architectures were trained with [[notes.opt.loss-conditioning]].
+This cost could of course be offset with downsampling, but [CCNN] offers evidence that depthwise-separable versions of [FlexConv] kernels, or FlexSepConv, can be combined with global kernel sizes or depthwise-separable convolutions in order to offset the computational cost of large kernels, making it quadratic instead. The size of the receptive field produced by kernel generator networks like MAGNets could additionally be conditioned on its inputs with intermediate componentry akin to [[ref.opt.film]], or explicitly regularized with an additional loss term, leading me to ask what the result would be if these architectures were trained with [[ref.opt.loss-conditioning]].
 
 
 [flexconv]: https://arxiv.org/abs/2110.08059
