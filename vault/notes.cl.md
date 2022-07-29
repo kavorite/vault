@@ -2,7 +2,7 @@
 id: jc56h8njgqawadlroex4ju1
 title: Contrastive Learning
 desc: ''
-updated: 1659111396039
+updated: 1659111637584
 created: 1658948027342
 ---
 
@@ -15,7 +15,7 @@ $$
 P_{i,j} ← \frac{P_{i,j}}{||P_{:,j}||_2}
 $$
 
-Such that $PP^T$ will contain the pairwise cosine similarities of all the entries in any given batch of label logits $P_{b × n}$— or more commonly, $P_{b×d}$, where $d$ is some arbitrary, latent dimensionality. Then, instead of directly classifying $P$ and $T$, one _instead_ evaluates $PP^T$ for its fit to $TT^T$, using the objective of choice (usually some variant of softmax cross-entropy).
+Such that $PP^T$ will contain the pairwise cosine similarities of all the entries in any given batch of label logits $P_{b × n}$— or more commonly, $P_{b×d}$, where $d$ is some arbitrary, latent dimensionality. Then, instead of directly classifying $P$ and $T$, one _instead_ evaluates $PP^T$ for its fit to $TT^T$ using some differentiable loss defined in $ℝ^{b×b}$, usually some variant of cross-entropy.
 
 The result is a feature extractor whose latent representations project "like" and "unlike" items into spatially distinct regions on the unit hypersphere, or even potentially some non-Euclidean space, like [[the Riemannian manifold|notes.opt.hyperbolics]]. This can be used to perform few-shot classification by examining distances of new instances to a set of a few "exemplars" in embedding space, or, as in [[notes.cl.supcon]], simply fed forward into a linear classifier to use the stronger supervisory signal offered by pairwise instance discrimination for more robust generalization performance.
 
