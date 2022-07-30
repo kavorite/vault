@@ -1,8 +1,8 @@
 ---
 id: gj4j8mv891v6ofxgbv7a3fu
-title: S4
+title: Structured State Space Sequence Models
 desc: ''
-updated: 1659115080384
+updated: 1659200098247
 created: 1658838231340
 ---
 [S4] stands for "Efficiently Modeling Long Sequences with Structured State Spaces," an acronym coined in its publication of the same name by [Gu et al., 2021.][s4] This paper uses a continuous-time parametrization to model long-range dependencies in terms of multiple independent linear state space models in 1D sequences: But more importantly, the authors derive a practical optimization framework for such models that enables trivially data-parallel training and causal, autoregressive inference in $O(1)$ space by discretizing this continuous-time parametrization on-the-fly.
