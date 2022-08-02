@@ -2,7 +2,7 @@
 id: gj4j8mv891v6ofxgbv7a3fu
 title: Structured State Space Sequence Models
 desc: ''
-updated: 1659200098247
+updated: 1659482321428
 created: 1658838231340
 ---
 [S4] stands for "Efficiently Modeling Long Sequences with Structured State Spaces," an acronym coined in its publication of the same name by [Gu et al., 2021.][s4] This paper uses a continuous-time parametrization to model long-range dependencies in terms of multiple independent linear state space models in 1D sequences: But more importantly, the authors derive a practical optimization framework for such models that enables trivially data-parallel training and causal, autoregressive inference in $O(1)$ space by discretizing this continuous-time parametrization on-the-fly.
@@ -11,7 +11,8 @@ Causal convolutional kernels the same width as the input signal *at arbitrary ti
 
 ![S4](/assets/images/s4.png)
 
-Offshoots include [S4D]. Gu et al. found that "restricting the [state transition matrix] to be fully diagonal can still preserve the performance of the original model." Empirically, this works best when the continuous-time parametrization of S4 is left at the mercy of a discrete input signal which does not obey so many temporally-correlated signals as to be encapsulated with only one state space model: I.e., rather than the problem requiring reconstruction of continuous patterns, it merely requires reconstructing a specific subset of discrete signals. Slimming down the intermediate S4 module is thereby sometimes empirically observed to have better convergence properties and make better use of the same number of parameters on language tasks.
+Offshoots include [S4D]. Gu et al. found that "restricting the [state transition matrix] to be fully diagonal can still preserve the performance of the original model." Empirically, this works best when the continuous-time parametrization of S4 is left at the mercy of a discrete input signal which does not obey so many temporally-correlated signals as to be encapsulated with only one state space model: I.e., rather than the problem requiring reconstruction of continuous patterns, it merely requires reconstructing a specific subset of discrete signals. Slimming down the intermediate S4 module is thereby sometimes empirically observed to have better convergence properties and make better use of the same number of parameters on language tasks. [Mehta, et al., 2022][gss] found that a learnable parameter, $\Delta,$ could even be completely fixed (set to 1) in their experiments without impacting performance— although they did acknowledge that they trained on relatively shorter sequence lengths, and used vastly more compute. 
+
 
 ![S4D](/assets/images/s4d.png)
 
@@ -28,4 +29,5 @@ Although [[ref.nlp.lae]] was originally intended for attention models such as tr
 
 [s4]: https://arxiv.org/abs/2111.00396
 [s4d]: https://arxiv.org/abs/2206.11893
+[gss]: https://arxiv.org/abs/2206.13947
 [spfhp]: https://arxiv.org/abs/2107.02027
