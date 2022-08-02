@@ -2,10 +2,10 @@
 id: hwm8yedokqpoldsx5rsjghh
 title: TIRR
 desc: ''
-updated: 1659116062017
+updated: 1659409885832
 created: 1658923518236
 ---
-TIRR, or "Temporal Image-Based Recommender," is a mutual recommender system published by [Neve, et al., 2021][paper]. It is built from the ground up for conditioning on individual preferences to recommend _people_ to _one another_ by conditioning on associated samples of their content, making it instantly useful for content aggregation and social media applications.
+The **T**emporal **I**mage-based **R**eciprocal **R**ecommender is a mutual recommender system published by [Neve and McConville, 2021][paper]. It is built from the ground up for conditioning on individual preferences to recommend _people_ to _one another_ by conditioning on associated samples of their content, making it instantly useful for content aggregation and social media applications.
 
 <!-- 
 TODO: my homework 

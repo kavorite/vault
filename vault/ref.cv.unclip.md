@@ -2,7 +2,7 @@
 id: s2dvzt8effhbjxgsflxlw75
 title: UnCLIP
 desc: ''
-updated: 1659017941664
+updated: 1659409460728
 created: 1658923989156
 ---
 
@@ -14,6 +14,6 @@ The best confluence of sample diversity, visual fidelity, and aesthetic ratings 
 
 Denoising the image via inpainting while reproducing the same semantics as the original content becomes a nontrivial, denoising-autoencoding objective for which diffusion models were found to be best suited overall. Perhaps a decoder could perform better by allowing the upsampling factor to be conditioned on the input using [[ref.opt.film]] and dynamically learned?
 
-[paper]: https://arxiv.org/pdf/2205.12674.pdf
+[paper]: https://cdn.openai.com/papers/dall-e-2.pdf
 [ddim]: https://arxiv.org/abs/2010.02502
 [clfree]: https://openreview.net/pdf?id=qw8AKxfYbI

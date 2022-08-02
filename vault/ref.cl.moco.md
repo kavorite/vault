@@ -1,11 +1,11 @@
 ---
 id: uihquvh4fwgniynh3aly42g
-title: MoCo
+title: Momentum Contrast
 desc: ''
-updated: 1659031936204
+updated: 1659409804201
 created: 1653189552070
 ---
-Introduced by He, et al., 2019, [MoCo], or **Mo**mentum **Co**ntrast, uses a set of "slow" and "fast" parameters. A "slow" momentum encoder, with a small update rate of ρ ≤ 0.01, is interpolated toward the latest parameter vector at each descent step, and to perform self-supervised instance discrimination, its embeddings are used as supervisory signals. Like [[ref.cl.supcon]], it required large training batches, which its authors would attempt to rectify in MoCov2.
+Introduced by He, et al., 2019, **Mo**mentum **Co**ntrast or MoCo, uses a set of "slow" and "fast" parameters. A "slow" momentum encoder, with a small update rate of ρ ≤ 0.01, is interpolated toward the latest parameter vector at each descent step, and to perform self-supervised instance discrimination, its embeddings are used as supervisory signals. Like [[ref.cl.supcon]], it required large training batches, which its authors would attempt to rectify in MoCov2.
 
 ## Derivatives
 ### [MoCov2]
