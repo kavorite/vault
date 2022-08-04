@@ -2,17 +2,15 @@
 id: txmy1anxf7bhr607yyk7te7
 title: DEQ Extensions
 desc: ''
-updated: 1659409513658
+updated: 1659577648992
 created: 1658945653478
 ---
-
-To date, I haven't seen a single publication attempt applying more than one of these approaches, maybe just because they were developed very recently, and concurrently with one another. 
 
 ## [Jacobian Regularization][jacreg]
 DEQs turned out not to work especially well in practice, learning hard-to-solve Jacobian matrices, which caused training to lose stability and become less computationally tractable over time. Bai et al., the same research group which invented DEQs, later presented methods that allow this behavior to be explicitly regularized, bringing their computational costs to par with those of explicit networks.
 
-## [IMEX]
-Introduced by Pal, et al., 2022, IMEX combines DEQs with an explicit correction layer which conditions them on their inputs and predicts initial hidden states, not unlike [[ref.opt.film]], stabilizing and expediting training. It is [implemented][imex-impl] in Julia. Based on the difficulties that vanilla DEQs have with matching the computational efficiency of deep explicit models, all practical implementations of DEQs should probably look something like this.
+## [SkipDEQ][fastdeq]
+Introduced by Pal, et al., 2022, [SkipDEQs][fastdeq] combine DEQs with an explicit correction layer which conditions them on their inputs and predicts initial hidden states, not unlike [[ref.opt.film]], stabilizing and expediting training. It is [implemented][fastdeq-impl] in Julia. Based on the difficulties that vanilla DEQs have with matching the computational efficiency of deep explicit models, all practical implementations of DEQs should probably look something like this.
 
 ## [MDEQ]
 
@@ -27,8 +25,8 @@ Other forms of explicit regularization might also be of use in combination with 
 
 [mdeq]: https://arxiv.org/abs/2006.08656
 [jacreg]: http://implicit-layers-tutorial.org/deep_equilibrium_models/
-[imex]: https://arxiv.org/abs/2201.12240
-[imex-impl]: https://github.com/SciML/DeepEquilibriumNetworks.jl
+[fastdeq]: https://arxiv.org/abs/2201.12240
+[fastdeq-impl]: https://github.com/SciML/DeepEquilibriumNetworks.jl
 [resnets]: https://arxiv.org/abs/1512.03385
 [unets]: https://arxiv.org/abs/1505.04597
 [nvae]: https://arxiv.org/abs/2007.03898
