@@ -1,8 +1,8 @@
 ---
 id: hqv5s3hlhjqatutciw4x4nm
-title: Stego
+title: STEGO
 desc: ''
-updated: 1659019531558
+updated: 1659833555302
 created: 1653185965558
 ---
 Introduced in [Hamilton, et al., 2022][paper] ([blog]), **S**elf-supervised **T**ransformer with **E**nergy-based **G**raph **O**ptimization, or STEGO, can induce semantic segmentations by fitting a new head to a pretrained image recognizer, allowing it to be trained with tiny datasets on commodity hardware after a more costly classifier pretraining step. 
