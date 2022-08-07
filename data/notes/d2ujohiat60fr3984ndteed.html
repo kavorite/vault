@@ -1,0 +1,16 @@
+<h1 id="fast-knowledge-distillation-for-cnns"><a aria-hidden="true" class="anchor-heading icon-link" href="#fast-knowledge-distillation-for-cnns"></a>Fast Knowledge Distillation for CNNs</h1>
+<p>Using methods published by <a href="https://arxiv.org/abs/2112.01528">Shen, et al., 2021,</a> it's possible to perform <a href="/vault/notes/iu6ldvp95326hayrcvy9lg0">Knowledge Distillation</a> more sample-efficiently, echoing <a href="/vault/notes/uihquvh4fwgniynh3aly42g#fast-moco">Momentum Contrast</a>. The elevator pitch is that you create a pseudo-annotated dataset from many augmentations of the same image, alongside the output of the teacher's head, effectively creating many samples per forward pass of the teacher network, and allowing for a bespoke form of <a href="/vault/notes/166kq4lkh8d5asll0rspk2g">Data Echoing</a>: Images can be loaded once, resampled, and shipped over for preprocessing <em>on the hardware accelerator itself,</em> effectively providing a built-in echoing factor of however many augmented views are taken per image. Since I generally already apply sample-specific augmentations on the device during data echoing, the main performance gains to be expected are those from applying the teacher network to cropped spatial regions of the input (jigsaw assembly, again, similar to <a href="/vault/notes/jc56h8njgqawadlroex4ju1">Contrastive Learning</a>).</p>
+<ol>
+<li>Apply a set of deterministic, pseudo-random data augmentations (e.g., with <a href="https://github.com/4rtemi5/imax">RandAugment</a>). For most training regimes, this also should include a (deterministic) random crop. Store the result for retrieval in some capacity.</li>
+<li>Apply the teacher model to augmented samples; store extracted features alongside the augmentation hyperparameters (bounding boxes for cropping, transformations applied). Persist the result.
+<ul>
+<li>In JAX, and other augmentation implementations with stateless PRNG, this could be as simple as making a note of the transformation <a href="https://jax.readthedocs.io/en/latest/jax.random.html">seed</a> such that it can be reproduced on accelerators during training using a single copy of the anchor image, which is what prompts my comparison to data echoing.</li>
+</ul>
+</li>
+<li>Train the student model to emulate the output of the teacher. Can be done with standard KL divergence objectives or MSE for <a href="https://arxiv.org/abs/2105.08919">logit cloning</a> if you're feeling <em>exotic.</em></li>
+</ol>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/vault/notes/uihquvh4fwgniynh3aly42g">Momentum Contrast (vault)</a></li>
+</ul>

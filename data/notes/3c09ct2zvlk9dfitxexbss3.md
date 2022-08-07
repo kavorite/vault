@@ -1,0 +1,1 @@
+Methods related to the particularities of gradient descent: Objectives, optimization and backpropagation algorithms, and infeeding techniques.

@@ -1,0 +1,2212 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": "vault"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1659833635050,
+      "created": 1659833635050,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "03pulnmaeflpgvrzhe2e2vx": {
+      "id": "03pulnmaeflpgvrzhe2e2vx",
+      "title": "soapbox",
+      "desc": "",
+      "updated": 1659115952036,
+      "created": 1659115200390,
+      "custom": {
+        "nav_order": 1
+      },
+      "fname": "pub",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "2a07e1769a61a5a6124da29ab4fd335c",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "ihfr21mlvz5lp3n62uu344t": {
+      "id": "ihfr21mlvz5lp3n62uu344t",
+      "title": "kavlogs",
+      "desc": "",
+      "updated": 1659115143090,
+      "created": 1659018913792,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "ref",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "41b7e8cfe841b035025dfa85ec0b142e",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "39acu8nb3xn6t18xul0ji8d",
+        "jc56h8njgqawadlroex4ju1",
+        "wf5gku64lj2ag6n8kzs9o8f",
+        "jlbuz8giyj93jsc1l0lmbzs",
+        "3c09ct2zvlk9dfitxexbss3"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "3c09ct2zvlk9dfitxexbss3": {
+      "id": "3c09ct2zvlk9dfitxexbss3",
+      "title": "Optimization",
+      "desc": "",
+      "updated": 1658949560588,
+      "created": 1658947982678,
+      "custom": {},
+      "fname": "ref.opt",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "7f15b859a975bcfde4d64aeaa2ea0008",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "166kq4lkh8d5asll0rspk2g",
+        "zy4oqk1z59whxqbjtmwbdm4",
+        "ikhbh5ldwpxjjb3ev2aacu0",
+        "iu6ldvp95326hayrcvy9lg0",
+        "0oj3xw4fhwwb7qifcve8g19",
+        "3cublmnyywkz5grltuf1253"
+      ],
+      "parent": "ihfr21mlvz5lp3n62uu344t",
+      "data": {}
+    },
+    "3cublmnyywkz5grltuf1253": {
+      "id": "3cublmnyywkz5grltuf1253",
+      "title": "Sharpness Aware Minimization",
+      "desc": "",
+      "updated": 1659115650928,
+      "created": 1653183250379,
+      "custom": {},
+      "fname": "ref.opt.sam",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "50083ede8f65cb55adcb4ecbbec65239",
+      "links": [
+        {
+          "from": {
+            "fname": "ref.arch.deq.extensions",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 16,
+              "column": 6,
+              "offset": 2957
+            },
+            "end": {
+              "line": 16,
+              "column": 25,
+              "offset": 2976
+            },
+            "indent": []
+          },
+          "value": "ref.opt.sam",
+          "alias": "SAM"
+        }
+      ],
+      "anchors": {
+        "derivatives-and-extensions": {
+          "type": "header",
+          "text": "Derivatives and Extensions",
+          "value": "derivatives-and-extensions",
+          "line": 34,
+          "column": 0,
+          "depth": 2
+        },
+        "looksam": {
+          "type": "header",
+          "text": "LookSAM",
+          "value": "looksam",
+          "line": 35,
+          "column": 0,
+          "depth": 3
+        },
+        "asam": {
+          "type": "header",
+          "text": "ASAM",
+          "value": "asam",
+          "line": 38,
+          "column": 0,
+          "depth": 3
+        },
+        "δ-sam": {
+          "type": "header",
+          "text": "δ-SAM",
+          "value": "δ-sam",
+          "line": 41,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "3c09ct2zvlk9dfitxexbss3",
+      "data": {}
+    },
+    "0oj3xw4fhwwb7qifcve8g19": {
+      "id": "0oj3xw4fhwwb7qifcve8g19",
+      "title": "Loss Conditioning",
+      "desc": "",
+      "updated": 1659021548107,
+      "created": 1658887803982,
+      "custom": {},
+      "fname": "ref.opt.loss-conditioning",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "d0c9213f39a62a6314c291086015f689",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.opt.loss-conditioning",
+            "id": "0oj3xw4fhwwb7qifcve8g19",
+            "vaultName": "vault"
+          },
+          "value": "ref.opt.film",
+          "alias": "ref.opt.film",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 148,
+              "offset": 147
+            },
+            "end": {
+              "line": 1,
+              "column": 164,
+              "offset": 163
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.opt.film"
+          }
+        },
+        {
+          "from": {
+            "fname": "ref.arch.ckconv",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 649,
+              "offset": 2270
+            },
+            "end": {
+              "line": 13,
+              "column": 678,
+              "offset": 2299
+            },
+            "indent": []
+          },
+          "value": "ref.opt.loss-conditioning",
+          "alias": "ref.opt.loss-conditioning"
+        },
+        {
+          "from": {
+            "fname": "ref.opt.film",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 53,
+              "offset": 622
+            },
+            "end": {
+              "line": 4,
+              "column": 126,
+              "offset": 695
+            },
+            "indent": []
+          },
+          "value": "ref.opt.loss-conditioning",
+          "alias": "multiple objective functions simultaneously"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "3c09ct2zvlk9dfitxexbss3",
+      "data": {}
+    },
+    "iu6ldvp95326hayrcvy9lg0": {
+      "id": "iu6ldvp95326hayrcvy9lg0",
+      "title": "Knowledge Distillation",
+      "desc": "",
+      "updated": 1658950661986,
+      "created": 1653185716656,
+      "custom": {},
+      "fname": "ref.opt.knowledge-distillation",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "0c123f660bcbd1ba2217f1e0e64201e5",
+      "links": [
+        {
+          "from": {
+            "fname": "ref.cv.fast-distillation",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 82,
+              "offset": 81
+            },
+            "end": {
+              "line": 1,
+              "column": 116,
+              "offset": 115
+            },
+            "indent": []
+          },
+          "value": "ref.opt.knowledge-distillation",
+          "alias": "ref.opt.knowledge-distillation"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "3c09ct2zvlk9dfitxexbss3",
+      "data": {}
+    },
+    "ikhbh5ldwpxjjb3ev2aacu0": {
+      "id": "ikhbh5ldwpxjjb3ev2aacu0",
+      "title": "Hyperbolic Geometry",
+      "desc": "",
+      "updated": 1659019753675,
+      "created": 1658836812312,
+      "custom": {},
+      "fname": "ref.opt.hyperbolics",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "6a34dac5a71f7d339460f55ef69514e2",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.opt.hyperbolics",
+            "id": "ikhbh5ldwpxjjb3ev2aacu0",
+            "vaultName": "vault"
+          },
+          "value": "ref.cl.supcon",
+          "alias": "ref.cl.supcon",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 245,
+              "offset": 1406
+            },
+            "end": {
+              "line": 5,
+              "column": 262,
+              "offset": 1423
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.cl.supcon"
+          }
+        },
+        {
+          "from": {
+            "fname": "ref.cl",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 206,
+              "offset": 1919
+            },
+            "end": {
+              "line": 13,
+              "column": 253,
+              "offset": 1966
+            },
+            "indent": []
+          },
+          "value": "ref.opt.hyperbolics",
+          "alias": "the Riemannian manifold"
+        },
+        {
+          "from": {
+            "fname": "ref.cl.supcon",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 378,
+              "offset": 1400
+            },
+            "end": {
+              "line": 6,
+              "column": 415,
+              "offset": 1437
+            },
+            "indent": []
+          },
+          "value": "ref.opt.hyperbolics",
+          "alias": "Poincaré ball"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "3c09ct2zvlk9dfitxexbss3",
+      "data": {}
+    },
+    "zy4oqk1z59whxqbjtmwbdm4": {
+      "id": "zy4oqk1z59whxqbjtmwbdm4",
+      "title": "Feature-wise Linear Modulation",
+      "desc": "",
+      "updated": 1659826743808,
+      "created": 1658887070728,
+      "custom": {},
+      "fname": "ref.opt.film",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "c0dbd8c97f21d963ba38093614b27a55",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.opt.film",
+            "id": "zy4oqk1z59whxqbjtmwbdm4",
+            "vaultName": "vault"
+          },
+          "value": "ref.opt.loss-conditioning",
+          "alias": "multiple objective functions simultaneously",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 53,
+              "offset": 622
+            },
+            "end": {
+              "line": 4,
+              "column": 126,
+              "offset": 695
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.opt.loss-conditioning"
+          }
+        },
+        {
+          "from": {
+            "fname": "ref.arch.ckconv",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 491,
+              "offset": 2112
+            },
+            "end": {
+              "line": 13,
+              "column": 507,
+              "offset": 2128
+            },
+            "indent": []
+          },
+          "value": "ref.opt.film",
+          "alias": "ref.opt.film"
+        },
+        {
+          "from": {
+            "fname": "ref.cv.unclip",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 327,
+              "offset": 1964
+            },
+            "end": {
+              "line": 8,
+              "column": 343,
+              "offset": 1980
+            },
+            "indent": []
+          },
+          "value": "ref.opt.film",
+          "alias": "ref.opt.film"
+        },
+        {
+          "from": {
+            "fname": "ref.opt.loss-conditioning",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 148,
+              "offset": 147
+            },
+            "end": {
+              "line": 1,
+              "column": 164,
+              "offset": 163
+            },
+            "indent": []
+          },
+          "value": "ref.opt.film",
+          "alias": "ref.opt.film"
+        },
+        {
+          "from": {
+            "fname": "ref.arch.deq.extensions",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 186,
+              "offset": 649
+            },
+            "end": {
+              "line": 6,
+              "column": 202,
+              "offset": 665
+            },
+            "indent": []
+          },
+          "value": "ref.opt.film",
+          "alias": "ref.opt.film"
+        }
+      ],
+      "anchors": {
+        "applications": {
+          "type": "header",
+          "text": "Applications",
+          "value": "applications",
+          "line": 9,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "3c09ct2zvlk9dfitxexbss3",
+      "data": {}
+    },
+    "166kq4lkh8d5asll0rspk2g": {
+      "id": "166kq4lkh8d5asll0rspk2g",
+      "title": "Data Echoing",
+      "desc": "",
+      "updated": 1653182753742,
+      "created": 1653182597603,
+      "custom": {},
+      "fname": "ref.opt.data-echoing",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "8b3ad7d5f93d2cc57a70f0ae75a7b6c4",
+      "links": [
+        {
+          "from": {
+            "fname": "ref.cv.fast-distillation",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 439,
+              "offset": 438
+            },
+            "end": {
+              "line": 1,
+              "column": 463,
+              "offset": 462
+            },
+            "indent": []
+          },
+          "value": "ref.opt.data-echoing",
+          "alias": "ref.opt.data-echoing"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "3c09ct2zvlk9dfitxexbss3",
+      "data": {}
+    },
+    "jlbuz8giyj93jsc1l0lmbzs": {
+      "id": "jlbuz8giyj93jsc1l0lmbzs",
+      "title": "Natural Language Processing",
+      "desc": "",
+      "updated": 1659019094005,
+      "created": 1658948948791,
+      "custom": {},
+      "fname": "ref.nlp",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "6e1dc9540e92c05fd9fa40a22bd0d4f6",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "1rm9i6wwcy7k2rkioy52rs3",
+        "epxo6h3psotasf3y7z98ect"
+      ],
+      "parent": "ihfr21mlvz5lp3n62uu344t",
+      "data": {}
+    },
+    "epxo6h3psotasf3y7z98ect": {
+      "id": "epxo6h3psotasf3y7z98ect",
+      "title": "MMASS",
+      "desc": "",
+      "updated": 1658950183377,
+      "created": 1658949602554,
+      "custom": {},
+      "fname": "ref.nlp.mass",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "53d6b4c8e1c5bff2d25124d26ab49cac",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "jlbuz8giyj93jsc1l0lmbzs",
+      "data": {}
+    },
+    "1rm9i6wwcy7k2rkioy52rs3": {
+      "id": "1rm9i6wwcy7k2rkioy52rs3",
+      "title": "Language Autoencoding",
+      "desc": "",
+      "updated": 1658949026452,
+      "created": 1658941369199,
+      "custom": {},
+      "fname": "ref.nlp.lae",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "e0f9b93b0699d46bbc37ab24580a4506",
+      "links": [
+        {
+          "from": {
+            "fname": "ref.arch.s4",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 21,
+              "column": 10,
+              "offset": 3571
+            },
+            "end": {
+              "line": 21,
+              "column": 25,
+              "offset": 3586
+            },
+            "indent": []
+          },
+          "value": "ref.nlp.lae",
+          "alias": "ref.nlp.lae"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "jlbuz8giyj93jsc1l0lmbzs",
+      "data": {}
+    },
+    "wf5gku64lj2ag6n8kzs9o8f": {
+      "id": "wf5gku64lj2ag6n8kzs9o8f",
+      "title": "Computer Vision",
+      "desc": "",
+      "updated": 1658947959798,
+      "created": 1658947953110,
+      "custom": {},
+      "fname": "ref.cv",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "69312e56c0aa1ee7fffaf82858054ee3",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "d2ujohiat60fr3984ndteed",
+        "vgqkwtg51f2w32ldcwwa00v",
+        "hqv5s3hlhjqatutciw4x4nm",
+        "s2dvzt8effhbjxgsflxlw75"
+      ],
+      "parent": "ihfr21mlvz5lp3n62uu344t",
+      "data": {}
+    },
+    "s2dvzt8effhbjxgsflxlw75": {
+      "id": "s2dvzt8effhbjxgsflxlw75",
+      "title": "UnCLIP",
+      "desc": "",
+      "updated": 1659409460728,
+      "created": 1658923989156,
+      "custom": {},
+      "fname": "ref.cv.unclip",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "2974e285cdeb3869a1efec1f3cb5048b",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.cv.unclip",
+            "id": "s2dvzt8effhbjxgsflxlw75",
+            "vaultName": "vault"
+          },
+          "value": "ref.cl.clip",
+          "alias": "ref.cl.clip",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 148,
+              "offset": 148
+            },
+            "end": {
+              "line": 2,
+              "column": 163,
+              "offset": 163
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.cl.clip"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.cv.unclip",
+            "id": "s2dvzt8effhbjxgsflxlw75",
+            "vaultName": "vault"
+          },
+          "value": "ref.opt.film",
+          "alias": "ref.opt.film",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 327,
+              "offset": 1964
+            },
+            "end": {
+              "line": 8,
+              "column": 343,
+              "offset": 1980
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.opt.film"
+          }
+        },
+        {
+          "from": {
+            "fname": "ref.arch.deq.extensions",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 12,
+              "column": 786,
+              "offset": 2223
+            },
+            "end": {
+              "line": 12,
+              "column": 803,
+              "offset": 2240
+            },
+            "indent": []
+          },
+          "value": "ref.cv.unclip",
+          "alias": "ref.cv.unclip"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "wf5gku64lj2ag6n8kzs9o8f",
+      "data": {}
+    },
+    "hqv5s3hlhjqatutciw4x4nm": {
+      "id": "hqv5s3hlhjqatutciw4x4nm",
+      "title": "STEGO",
+      "desc": "",
+      "updated": 1659833555302,
+      "created": 1653185965558,
+      "custom": {},
+      "fname": "ref.cv.stego",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "7d80f988cc5cd993e5a6a62a44dc771e",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.cv.stego",
+            "id": "hqv5s3hlhjqatutciw4x4nm",
+            "vaultName": "vault"
+          },
+          "value": "ref.arch.ckconv",
+          "alias": "ref.arch.ckconv",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 211,
+              "offset": 570
+            },
+            "end": {
+              "line": 3,
+              "column": 230,
+              "offset": 589
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.arch.ckconv"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "wf5gku64lj2ag6n8kzs9o8f",
+      "data": {}
+    },
+    "vgqkwtg51f2w32ldcwwa00v": {
+      "id": "vgqkwtg51f2w32ldcwwa00v",
+      "title": "Optical Character Recognition",
+      "desc": "",
+      "updated": 1658950722316,
+      "created": 1653184716755,
+      "custom": {},
+      "fname": "ref.cv.ocr",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "b7c9b42e9cae94c7e06a6175aefc6dc8",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "wf5gku64lj2ag6n8kzs9o8f",
+      "data": {}
+    },
+    "d2ujohiat60fr3984ndteed": {
+      "id": "d2ujohiat60fr3984ndteed",
+      "title": "Fast Knowledge Distillation for CNNs",
+      "desc": "",
+      "updated": 1659116468601,
+      "created": 1653182223624,
+      "custom": {},
+      "fname": "ref.cv.fast-distillation",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "12d9135af82e4397143bbe2877c37645",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.cv.fast-distillation",
+            "id": "d2ujohiat60fr3984ndteed",
+            "vaultName": "vault"
+          },
+          "value": "ref.opt.knowledge-distillation",
+          "alias": "ref.opt.knowledge-distillation",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 82,
+              "offset": 81
+            },
+            "end": {
+              "line": 1,
+              "column": 116,
+              "offset": 115
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.opt.knowledge-distillation"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.cv.fast-distillation",
+            "id": "d2ujohiat60fr3984ndteed",
+            "vaultName": "vault"
+          },
+          "value": "ref.cl.moco",
+          "alias": "ref.cl.moco",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 150,
+              "offset": 149
+            },
+            "end": {
+              "line": 1,
+              "column": 175,
+              "offset": 174
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.cl.moco",
+            "anchorHeader": "Fast-MoCo"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.cv.fast-distillation",
+            "id": "d2ujohiat60fr3984ndteed",
+            "vaultName": "vault"
+          },
+          "value": "ref.opt.data-echoing",
+          "alias": "ref.opt.data-echoing",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 439,
+              "offset": 438
+            },
+            "end": {
+              "line": 1,
+              "column": 463,
+              "offset": 462
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.opt.data-echoing"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.cv.fast-distillation",
+            "id": "d2ujohiat60fr3984ndteed",
+            "vaultName": "vault"
+          },
+          "value": "ref.cl",
+          "alias": "ref.cl",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 936,
+              "offset": 935
+            },
+            "end": {
+              "line": 1,
+              "column": 946,
+              "offset": 945
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.cl"
+          }
+        },
+        {
+          "from": {
+            "fname": "ref.cl.moco",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 70,
+              "offset": 1189
+            },
+            "end": {
+              "line": 13,
+              "column": 98,
+              "offset": 1217
+            },
+            "indent": []
+          },
+          "value": "ref.cv.fast-distillation",
+          "alias": "ref.cv.fast-distillation"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "wf5gku64lj2ag6n8kzs9o8f",
+      "data": {}
+    },
+    "jc56h8njgqawadlroex4ju1": {
+      "id": "jc56h8njgqawadlroex4ju1",
+      "title": "Contrastive Learning",
+      "desc": "",
+      "updated": 1659111637584,
+      "created": 1658948027342,
+      "custom": {},
+      "fname": "ref.cl",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "c14107fe5b9a849bd85f96da6f068e71",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.cl",
+            "id": "jc56h8njgqawadlroex4ju1",
+            "vaultName": "vault"
+          },
+          "value": "ref.opt.hyperbolics",
+          "alias": "the Riemannian manifold",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 206,
+              "offset": 1919
+            },
+            "end": {
+              "line": 13,
+              "column": 253,
+              "offset": 1966
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.opt.hyperbolics"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.cl",
+            "id": "jc56h8njgqawadlroex4ju1",
+            "vaultName": "vault"
+          },
+          "value": "ref.cl.supcon",
+          "alias": "ref.cl.supcon",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 407,
+              "offset": 2120
+            },
+            "end": {
+              "line": 13,
+              "column": 424,
+              "offset": 2137
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.cl.supcon"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.cl",
+            "id": "jc56h8njgqawadlroex4ju1",
+            "vaultName": "vault"
+          },
+          "value": "ref.cl.moco",
+          "alias": "ref.cl.moco",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 34,
+              "offset": 2344
+            },
+            "end": {
+              "line": 15,
+              "column": 49,
+              "offset": 2359
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.cl.moco"
+          }
+        },
+        {
+          "from": {
+            "fname": "ref.cv.fast-distillation",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 936,
+              "offset": 935
+            },
+            "end": {
+              "line": 1,
+              "column": 946,
+              "offset": 945
+            },
+            "indent": []
+          },
+          "value": "ref.cl",
+          "alias": "ref.cl"
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "63z6zjmnp5tg1pj2rwcfb2f",
+        "uihquvh4fwgniynh3aly42g",
+        "9cismp3jsqbqx1pyso6xdc4",
+        "hwm8yedokqpoldsx5rsjghh"
+      ],
+      "parent": "ihfr21mlvz5lp3n62uu344t",
+      "data": {}
+    },
+    "hwm8yedokqpoldsx5rsjghh": {
+      "id": "hwm8yedokqpoldsx5rsjghh",
+      "title": "TIRR",
+      "desc": "",
+      "updated": 1659409885832,
+      "created": 1658923518236,
+      "custom": {},
+      "fname": "ref.cl.tirr",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "ff5c01430ddf8afddb9f63bc6fdf1f56",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.cl.tirr",
+            "id": "hwm8yedokqpoldsx5rsjghh",
+            "vaultName": "vault"
+          },
+          "value": "ref.arch.s4",
+          "alias": "ref.arch.s4",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 365,
+              "offset": 1377
+            },
+            "end": {
+              "line": 8,
+              "column": 380,
+              "offset": 1392
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.arch.s4"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "jc56h8njgqawadlroex4ju1",
+      "data": {}
+    },
+    "9cismp3jsqbqx1pyso6xdc4": {
+      "id": "9cismp3jsqbqx1pyso6xdc4",
+      "title": "Supervised Contrastive Learning",
+      "desc": "",
+      "updated": 1659056602441,
+      "created": 1653188946537,
+      "custom": {},
+      "fname": "ref.cl.supcon",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "595e1b51a7e092ddff7591fc869d88e3",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.cl.supcon",
+            "id": "9cismp3jsqbqx1pyso6xdc4",
+            "vaultName": "vault"
+          },
+          "value": "ref.cl.moco",
+          "alias": "momentum encoder",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 99,
+              "offset": 517
+            },
+            "end": {
+              "line": 4,
+              "column": 131,
+              "offset": 549
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.cl.moco"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.cl.supcon",
+            "id": "9cismp3jsqbqx1pyso6xdc4",
+            "vaultName": "vault"
+          },
+          "value": "ref.cl.moco",
+          "alias": "Fast-MoCo",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 566,
+              "offset": 984
+            },
+            "end": {
+              "line": 4,
+              "column": 601,
+              "offset": 1019
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.cl.moco",
+            "anchorHeader": "Fast-MoCo"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.cl.supcon",
+            "id": "9cismp3jsqbqx1pyso6xdc4",
+            "vaultName": "vault"
+          },
+          "value": "ref.opt.hyperbolics",
+          "alias": "Poincaré ball",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 378,
+              "offset": 1400
+            },
+            "end": {
+              "line": 6,
+              "column": 415,
+              "offset": 1437
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.opt.hyperbolics"
+          }
+        },
+        {
+          "from": {
+            "fname": "ref.cl",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 407,
+              "offset": 2120
+            },
+            "end": {
+              "line": 13,
+              "column": 424,
+              "offset": 2137
+            },
+            "indent": []
+          },
+          "value": "ref.cl.supcon",
+          "alias": "ref.cl.supcon"
+        },
+        {
+          "from": {
+            "fname": "ref.cl.clip",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 356,
+              "offset": 355
+            },
+            "end": {
+              "line": 1,
+              "column": 373,
+              "offset": 372
+            },
+            "indent": []
+          },
+          "value": "ref.cl.supcon",
+          "alias": "ref.cl.supcon"
+        },
+        {
+          "from": {
+            "fname": "ref.cl.moco",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 359,
+              "offset": 358
+            },
+            "end": {
+              "line": 1,
+              "column": 376,
+              "offset": 375
+            },
+            "indent": []
+          },
+          "value": "ref.cl.supcon",
+          "alias": "ref.cl.supcon"
+        },
+        {
+          "from": {
+            "fname": "ref.opt.hyperbolics",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 245,
+              "offset": 1406
+            },
+            "end": {
+              "line": 5,
+              "column": 262,
+              "offset": 1423
+            },
+            "indent": []
+          },
+          "value": "ref.cl.supcon",
+          "alias": "ref.cl.supcon"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "jc56h8njgqawadlroex4ju1",
+      "data": {}
+    },
+    "uihquvh4fwgniynh3aly42g": {
+      "id": "uihquvh4fwgniynh3aly42g",
+      "title": "Momentum Contrast",
+      "desc": "",
+      "updated": 1659409804201,
+      "created": 1653189552070,
+      "custom": {},
+      "fname": "ref.cl.moco",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "d81cf2a1449012491e69b87458fc39bb",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.cl.moco",
+            "id": "uihquvh4fwgniynh3aly42g",
+            "vaultName": "vault"
+          },
+          "value": "ref.cl.supcon",
+          "alias": "ref.cl.supcon",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 359,
+              "offset": 358
+            },
+            "end": {
+              "line": 1,
+              "column": 376,
+              "offset": 375
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.cl.supcon"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.cl.moco",
+            "id": "uihquvh4fwgniynh3aly42g",
+            "vaultName": "vault"
+          },
+          "value": "ref.cv.fast-distillation",
+          "alias": "ref.cv.fast-distillation",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 70,
+              "offset": 1189
+            },
+            "end": {
+              "line": 13,
+              "column": 98,
+              "offset": 1217
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.cv.fast-distillation"
+          }
+        },
+        {
+          "from": {
+            "fname": "ref.cl",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 34,
+              "offset": 2344
+            },
+            "end": {
+              "line": 15,
+              "column": 49,
+              "offset": 2359
+            },
+            "indent": []
+          },
+          "value": "ref.cl.moco",
+          "alias": "ref.cl.moco"
+        },
+        {
+          "from": {
+            "fname": "ref.cl.supcon",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 99,
+              "offset": 517
+            },
+            "end": {
+              "line": 4,
+              "column": 131,
+              "offset": 549
+            },
+            "indent": []
+          },
+          "value": "ref.cl.moco",
+          "alias": "momentum encoder"
+        },
+        {
+          "from": {
+            "fname": "ref.cl.supcon",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 566,
+              "offset": 984
+            },
+            "end": {
+              "line": 4,
+              "column": 601,
+              "offset": 1019
+            },
+            "indent": []
+          },
+          "value": "ref.cl.moco",
+          "alias": "Fast-MoCo"
+        },
+        {
+          "from": {
+            "fname": "ref.cv.fast-distillation",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 150,
+              "offset": 149
+            },
+            "end": {
+              "line": 1,
+              "column": 175,
+              "offset": 174
+            },
+            "indent": []
+          },
+          "value": "ref.cl.moco",
+          "alias": "ref.cl.moco"
+        }
+      ],
+      "anchors": {
+        "derivatives": {
+          "type": "header",
+          "text": "Derivatives",
+          "value": "derivatives",
+          "line": 9,
+          "column": 0,
+          "depth": 2
+        },
+        "mocov2": {
+          "type": "header",
+          "text": "MoCov2",
+          "value": "mocov2",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "simmoco-and-simco": {
+          "type": "header",
+          "text": "SimMoCo and SimCo",
+          "value": "simmoco-and-simco",
+          "line": 15,
+          "column": 0,
+          "depth": 3
+        },
+        "fast-moco": {
+          "type": "header",
+          "text": "Fast-MoCo",
+          "value": "fast-moco",
+          "line": 18,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "jc56h8njgqawadlroex4ju1",
+      "data": {}
+    },
+    "63z6zjmnp5tg1pj2rwcfb2f": {
+      "id": "63z6zjmnp5tg1pj2rwcfb2f",
+      "title": "Contrastive Language-Image Pretraining",
+      "desc": "",
+      "updated": 1659409772664,
+      "created": 1658923754928,
+      "custom": {},
+      "fname": "ref.cl.clip",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "0b91b639c5af6b5b8ec9470f19c9e092",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.cl.clip",
+            "id": "63z6zjmnp5tg1pj2rwcfb2f",
+            "vaultName": "vault"
+          },
+          "value": "ref.cl.supcon",
+          "alias": "ref.cl.supcon",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 356,
+              "offset": 355
+            },
+            "end": {
+              "line": 1,
+              "column": 373,
+              "offset": 372
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.cl.supcon"
+          }
+        },
+        {
+          "from": {
+            "fname": "ref.cv.unclip",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 148,
+              "offset": 148
+            },
+            "end": {
+              "line": 2,
+              "column": 163,
+              "offset": 163
+            },
+            "indent": []
+          },
+          "value": "ref.cl.clip",
+          "alias": "ref.cl.clip"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "jc56h8njgqawadlroex4ju1",
+      "data": {}
+    },
+    "39acu8nb3xn6t18xul0ji8d": {
+      "id": "39acu8nb3xn6t18xul0ji8d",
+      "title": "Architecture",
+      "desc": "",
+      "updated": 1658959625969,
+      "created": 1658948147050,
+      "custom": {},
+      "fname": "ref.arch",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "10d0ac87d645d1766a7bf764086d8d7e",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "kxklakzrojw3q2r808mzh65",
+        "vl3h77sg0urrzngvpa94cp0",
+        "gj4j8mv891v6ofxgbv7a3fu"
+      ],
+      "parent": "ihfr21mlvz5lp3n62uu344t",
+      "data": {}
+    },
+    "gj4j8mv891v6ofxgbv7a3fu": {
+      "id": "gj4j8mv891v6ofxgbv7a3fu",
+      "title": "Structured State Space Sequence Models",
+      "desc": "",
+      "updated": 1659482321428,
+      "created": 1658838231340,
+      "custom": {},
+      "fname": "ref.arch.s4",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "58b339c4678a4555d6cf3f694b7d8b5f",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.arch.s4",
+            "id": "gj4j8mv891v6ofxgbv7a3fu",
+            "vaultName": "vault"
+          },
+          "value": "ref.nlp.lae",
+          "alias": "ref.nlp.lae",
+          "position": {
+            "start": {
+              "line": 21,
+              "column": 10,
+              "offset": 3571
+            },
+            "end": {
+              "line": 21,
+              "column": 25,
+              "offset": 3586
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.nlp.lae"
+          }
+        },
+        {
+          "from": {
+            "fname": "ref.cl.tirr",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 365,
+              "offset": 1377
+            },
+            "end": {
+              "line": 8,
+              "column": 380,
+              "offset": 1392
+            },
+            "indent": []
+          },
+          "value": "ref.arch.s4",
+          "alias": "ref.arch.s4"
+        }
+      ],
+      "anchors": {
+        "arbitrary-temporal-masking": {
+          "type": "header",
+          "text": "Arbitrary temporal masking",
+          "value": "arbitrary-temporal-masking",
+          "line": 19,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "39acu8nb3xn6t18xul0ji8d",
+      "data": {}
+    },
+    "vl3h77sg0urrzngvpa94cp0": {
+      "id": "vl3h77sg0urrzngvpa94cp0",
+      "title": "Deep Equilibrium Models",
+      "desc": "",
+      "updated": 1659577552800,
+      "created": 1658837430978,
+      "custom": {},
+      "fname": "ref.arch.deq",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "79f075d7bfe2d11e074cbea043952b70",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.arch.deq",
+            "id": "vl3h77sg0urrzngvpa94cp0",
+            "vaultName": "vault"
+          },
+          "value": "ref.arch.deq.extensions",
+          "alias": "some adjustments",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 378,
+              "offset": 2854
+            },
+            "end": {
+              "line": 7,
+              "column": 422,
+              "offset": 2898
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.arch.deq.extensions"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "txmy1anxf7bhr607yyk7te7"
+      ],
+      "parent": "39acu8nb3xn6t18xul0ji8d",
+      "data": {}
+    },
+    "txmy1anxf7bhr607yyk7te7": {
+      "id": "txmy1anxf7bhr607yyk7te7",
+      "title": "DEQ Extensions",
+      "desc": "",
+      "updated": 1659577648992,
+      "created": 1658945653478,
+      "custom": {},
+      "fname": "ref.arch.deq.extensions",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "0ba934b7a1c3aa81128c1c5d9ee507be",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.arch.deq.extensions",
+            "id": "txmy1anxf7bhr607yyk7te7",
+            "vaultName": "vault"
+          },
+          "value": "ref.opt.film",
+          "alias": "ref.opt.film",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 186,
+              "offset": 649
+            },
+            "end": {
+              "line": 6,
+              "column": 202,
+              "offset": 665
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.opt.film"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.arch.deq.extensions",
+            "id": "txmy1anxf7bhr607yyk7te7",
+            "vaultName": "vault"
+          },
+          "value": "ref.cv.unclip",
+          "alias": "ref.cv.unclip",
+          "position": {
+            "start": {
+              "line": 12,
+              "column": 786,
+              "offset": 2223
+            },
+            "end": {
+              "line": 12,
+              "column": 803,
+              "offset": 2240
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.cv.unclip"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.arch.deq.extensions",
+            "id": "txmy1anxf7bhr607yyk7te7",
+            "vaultName": "vault"
+          },
+          "value": "ref.arch.ckconv",
+          "alias": "FlexConv",
+          "position": {
+            "start": {
+              "line": 14,
+              "column": 164,
+              "offset": 2431
+            },
+            "end": {
+              "line": 14,
+              "column": 192,
+              "offset": 2459
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.arch.ckconv"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.arch.deq.extensions",
+            "id": "txmy1anxf7bhr607yyk7te7",
+            "vaultName": "vault"
+          },
+          "value": "ref.opt.sam",
+          "alias": "SAM",
+          "position": {
+            "start": {
+              "line": 16,
+              "column": 6,
+              "offset": 2957
+            },
+            "end": {
+              "line": 16,
+              "column": 25,
+              "offset": 2976
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.opt.sam"
+          }
+        },
+        {
+          "from": {
+            "fname": "ref.arch.deq",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 378,
+              "offset": 2854
+            },
+            "end": {
+              "line": 7,
+              "column": 422,
+              "offset": 2898
+            },
+            "indent": []
+          },
+          "value": "ref.arch.deq.extensions",
+          "alias": "some adjustments"
+        }
+      ],
+      "anchors": {
+        "jacobian-regularization": {
+          "type": "header",
+          "text": "Jacobian Regularization",
+          "value": "jacobian-regularization",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "skipdeq": {
+          "type": "header",
+          "text": "SkipDEQ",
+          "value": "skipdeq",
+          "line": 11,
+          "column": 0,
+          "depth": 2
+        },
+        "mdeq": {
+          "type": "header",
+          "text": "MDEQ",
+          "value": "mdeq",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "sam": {
+          "type": "header",
+          "text": "SAM",
+          "value": "sam",
+          "line": 22,
+          "column": 0,
+          "depth": 4
+        }
+      },
+      "children": [],
+      "parent": "vl3h77sg0urrzngvpa94cp0",
+      "data": {}
+    },
+    "kxklakzrojw3q2r808mzh65": {
+      "id": "kxklakzrojw3q2r808mzh65",
+      "title": "Continuous Kernel Convolution",
+      "desc": "",
+      "updated": 1659020720817,
+      "created": 1658835909947,
+      "custom": {},
+      "fname": "ref.arch.ckconv",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "b8c09903ec43950ae72cafb19cf17e26",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.arch.ckconv",
+            "id": "kxklakzrojw3q2r808mzh65",
+            "vaultName": "vault"
+          },
+          "value": "ref.opt.film",
+          "alias": "ref.opt.film",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 491,
+              "offset": 2112
+            },
+            "end": {
+              "line": 13,
+              "column": 507,
+              "offset": 2128
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.opt.film"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "ref.arch.ckconv",
+            "id": "kxklakzrojw3q2r808mzh65",
+            "vaultName": "vault"
+          },
+          "value": "ref.opt.loss-conditioning",
+          "alias": "ref.opt.loss-conditioning",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 649,
+              "offset": 2270
+            },
+            "end": {
+              "line": 13,
+              "column": 678,
+              "offset": 2299
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "ref.opt.loss-conditioning"
+          }
+        },
+        {
+          "from": {
+            "fname": "ref.cv.stego",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 211,
+              "offset": 570
+            },
+            "end": {
+              "line": 3,
+              "column": 230,
+              "offset": 589
+            },
+            "indent": []
+          },
+          "value": "ref.arch.ckconv",
+          "alias": "ref.arch.ckconv"
+        },
+        {
+          "from": {
+            "fname": "ref.arch.deq.extensions",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 14,
+              "column": 164,
+              "offset": 2431
+            },
+            "end": {
+              "line": 14,
+              "column": 192,
+              "offset": 2459
+            },
+            "indent": []
+          },
+          "value": "ref.arch.ckconv",
+          "alias": "FlexConv"
+        }
+      ],
+      "anchors": {
+        "computational-caveats": {
+          "type": "header",
+          "text": "Computational Caveats",
+          "value": "computational-caveats",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "39acu8nb3xn6t18xul0ji8d",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "ihfr21mlvz5lp3n62uu344t",
+      "title": "kavlogs",
+      "desc": "",
+      "updated": 1659115143090,
+      "created": 1659018913792,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "ref",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "41b7e8cfe841b035025dfa85ec0b142e",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "39acu8nb3xn6t18xul0ji8d",
+        "jc56h8njgqawadlroex4ju1",
+        "wf5gku64lj2ag6n8kzs9o8f",
+        "jlbuz8giyj93jsc1l0lmbzs",
+        "3c09ct2zvlk9dfitxexbss3"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "This is an assorted collection of notes and thoughts on things I've read about before. Here for my reference, and so that you can come here to read my background instead of receiving an untimely info-dump whose content just amounts to a recitation of anything here, out of mutual respect for my time and yours."
+    },
+    {
+      "id": "03pulnmaeflpgvrzhe2e2vx",
+      "title": "soapbox",
+      "desc": "",
+      "updated": 1659115952036,
+      "created": 1659115200390,
+      "custom": {
+        "nav_order": 1
+      },
+      "fname": "pub",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "2a07e1769a61a5a6124da29ab4fd335c",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {},
+      "body": "Stories that motivate my study and application of technology. "
+    }
+  ],
+  "noteIndex": {
+    "id": "ihfr21mlvz5lp3n62uu344t",
+    "title": "kavlogs",
+    "desc": "",
+    "updated": 1659115143090,
+    "created": 1659018913792,
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "fname": "ref",
+    "type": "note",
+    "vault": {
+      "fsPath": "vault"
+    },
+    "contentHash": "41b7e8cfe841b035025dfa85ec0b142e",
+    "links": [],
+    "anchors": {},
+    "children": [
+      "39acu8nb3xn6t18xul0ji8d",
+      "jc56h8njgqawadlroex4ju1",
+      "wf5gku64lj2ag6n8kzs9o8f",
+      "jlbuz8giyj93jsc1l0lmbzs",
+      "3c09ct2zvlk9dfitxexbss3"
+    ],
+    "parent": null,
+    "data": {},
+    "body": "This is an assorted collection of notes and thoughts on things I've read about before. Here for my reference, and so that you can come here to read my background instead of receiving an untimely info-dump whose content just amounts to a recitation of anything here, out of mutual respect for my time and yours."
+  },
+  "vaults": [
+    {
+      "fsPath": "vault"
+    },
+    {
+      "fsPath": "projects"
+    },
+    {
+      "fsPath": "tenets"
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "roots": [
+    {
+      "key": "ihfr21mlvz5lp3n62uu344t",
+      "title": "kavlogs",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "navExclude": false,
+      "children": [
+        {
+          "key": "39acu8nb3xn6t18xul0ji8d",
+          "title": "Architecture",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "kxklakzrojw3q2r808mzh65",
+              "title": "Continuous Kernel Convolution",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "vl3h77sg0urrzngvpa94cp0",
+              "title": "Deep Equilibrium Models",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "txmy1anxf7bhr607yyk7te7",
+                  "title": "DEQ Extensions",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "gj4j8mv891v6ofxgbv7a3fu",
+              "title": "Structured State Space Sequence Models",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "wf5gku64lj2ag6n8kzs9o8f",
+          "title": "Computer Vision",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "d2ujohiat60fr3984ndteed",
+              "title": "Fast Knowledge Distillation for CNNs",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "vgqkwtg51f2w32ldcwwa00v",
+              "title": "Optical Character Recognition",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "hqv5s3hlhjqatutciw4x4nm",
+              "title": "STEGO",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "s2dvzt8effhbjxgsflxlw75",
+              "title": "UnCLIP",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "jc56h8njgqawadlroex4ju1",
+          "title": "Contrastive Learning",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "63z6zjmnp5tg1pj2rwcfb2f",
+              "title": "Contrastive Language-Image Pretraining",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "uihquvh4fwgniynh3aly42g",
+              "title": "Momentum Contrast",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "9cismp3jsqbqx1pyso6xdc4",
+              "title": "Supervised Contrastive Learning",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "hwm8yedokqpoldsx5rsjghh",
+              "title": "TIRR",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "jlbuz8giyj93jsc1l0lmbzs",
+          "title": "Natural Language Processing",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "1rm9i6wwcy7k2rkioy52rs3",
+              "title": "Language Autoencoding",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "epxo6h3psotasf3y7z98ect",
+              "title": "MMASS",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "3c09ct2zvlk9dfitxexbss3",
+          "title": "Optimization",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "166kq4lkh8d5asll0rspk2g",
+              "title": "Data Echoing",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "zy4oqk1z59whxqbjtmwbdm4",
+              "title": "Feature-wise Linear Modulation",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "ikhbh5ldwpxjjb3ev2aacu0",
+              "title": "Hyperbolic Geometry",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "iu6ldvp95326hayrcvy9lg0",
+              "title": "Knowledge Distillation",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "0oj3xw4fhwwb7qifcve8g19",
+              "title": "Loss Conditioning",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "3cublmnyywkz5grltuf1253",
+              "title": "Sharpness Aware Minimization",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "03pulnmaeflpgvrzhe2e2vx",
+      "title": "soapbox",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "navExclude": false,
+      "children": []
+    }
+  ],
+  "child2parent": {
+    "403": null,
+    "03pulnmaeflpgvrzhe2e2vx": null,
+    "ihfr21mlvz5lp3n62uu344t": null,
+    "3c09ct2zvlk9dfitxexbss3": "ihfr21mlvz5lp3n62uu344t",
+    "3cublmnyywkz5grltuf1253": "3c09ct2zvlk9dfitxexbss3",
+    "0oj3xw4fhwwb7qifcve8g19": "3c09ct2zvlk9dfitxexbss3",
+    "iu6ldvp95326hayrcvy9lg0": "3c09ct2zvlk9dfitxexbss3",
+    "ikhbh5ldwpxjjb3ev2aacu0": "3c09ct2zvlk9dfitxexbss3",
+    "zy4oqk1z59whxqbjtmwbdm4": "3c09ct2zvlk9dfitxexbss3",
+    "166kq4lkh8d5asll0rspk2g": "3c09ct2zvlk9dfitxexbss3",
+    "jlbuz8giyj93jsc1l0lmbzs": "ihfr21mlvz5lp3n62uu344t",
+    "epxo6h3psotasf3y7z98ect": "jlbuz8giyj93jsc1l0lmbzs",
+    "1rm9i6wwcy7k2rkioy52rs3": "jlbuz8giyj93jsc1l0lmbzs",
+    "wf5gku64lj2ag6n8kzs9o8f": "ihfr21mlvz5lp3n62uu344t",
+    "s2dvzt8effhbjxgsflxlw75": "wf5gku64lj2ag6n8kzs9o8f",
+    "hqv5s3hlhjqatutciw4x4nm": "wf5gku64lj2ag6n8kzs9o8f",
+    "vgqkwtg51f2w32ldcwwa00v": "wf5gku64lj2ag6n8kzs9o8f",
+    "d2ujohiat60fr3984ndteed": "wf5gku64lj2ag6n8kzs9o8f",
+    "jc56h8njgqawadlroex4ju1": "ihfr21mlvz5lp3n62uu344t",
+    "hwm8yedokqpoldsx5rsjghh": "jc56h8njgqawadlroex4ju1",
+    "9cismp3jsqbqx1pyso6xdc4": "jc56h8njgqawadlroex4ju1",
+    "uihquvh4fwgniynh3aly42g": "jc56h8njgqawadlroex4ju1",
+    "63z6zjmnp5tg1pj2rwcfb2f": "jc56h8njgqawadlroex4ju1",
+    "39acu8nb3xn6t18xul0ji8d": "ihfr21mlvz5lp3n62uu344t",
+    "gj4j8mv891v6ofxgbv7a3fu": "39acu8nb3xn6t18xul0ji8d",
+    "vl3h77sg0urrzngvpa94cp0": "39acu8nb3xn6t18xul0ji8d",
+    "txmy1anxf7bhr607yyk7te7": "vl3h77sg0urrzngvpa94cp0",
+    "kxklakzrojw3q2r808mzh65": "39acu8nb3xn6t18xul0ji8d"
+  }
+}
